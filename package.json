@@ -1,0 +1,22 @@
+{
+  "name": "sdi-apr-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"start": "live-server .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvodipija/sdi-apr-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nvodipija/sdi-apr-todo/issues"
+  },
+  "homepage": "https://github.com/nvodipija/sdi-apr-todo#readme"
+}

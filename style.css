@@ -1,0 +1,43 @@
+h1 {
+  display: flex;
+  text-decoration:underline;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  color:blueviolet
+}
+#user-input{
+  background-color: rgb(248, 214, 219);
+  width: 85%;
+}
+#taskBtn{
+  color: white;
+  font-weight: bold;
+  background-color:hotpink;
+
+}
+#todo-box {
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgb(228, 208, 236);
+  border: 5px solid #000;
+  justify-content: center;
+}
+
+#first-pic {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 260px;
+  z-index: 1;
+}
+#whole-page{
+  background-color: rgb(241, 222, 233);
+   width: 100vw;
+   height: 100vw;
+  }
+ul {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: blueviolet;
+   }
