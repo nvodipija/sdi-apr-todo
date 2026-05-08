@@ -9,12 +9,15 @@ button.addEventListener('click', () => {
 
 
  const li = document.createElement('li');
-  li.textContent = userInputValue;
+  li.innerHTML = userInputValue;
 
  li.addEventListener('click', () => {
     li.style.textDecoration = "line-through"
     li.style.textDecorationThickness = "4px";
 
+ li.addEventListener('dblclick', () => {
+  li.remove();
+ })
 })
   output.appendChild(li);
 
